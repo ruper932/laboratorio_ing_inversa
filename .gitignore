@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Docker
+*.log
+.docker/
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# Capturas y pcaps
+*.pcap
+
+# Claves privadas (¡importante!)
+*.pem
+*.key
+id_*
+!id_*.pub
+
+# Editor
+.vscode/
+.idea/
